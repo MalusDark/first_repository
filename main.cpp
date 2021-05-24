@@ -12,6 +12,8 @@ int main()
 	
 	input(&num1, &num2);
 	cout << "Числа: " << num1 << "; " << num2 << endl;
+
+	cout << "Сумма введенных чисел: " << num1 + num2 << endl;
 	
 	return 0;
 }
